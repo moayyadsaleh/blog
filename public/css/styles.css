@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav ul li a:hover {
+    color: #ff0000; /* Change the color as desired */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full viewport height */
+  }
+  
+  /* The footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom of the page */
+  }
