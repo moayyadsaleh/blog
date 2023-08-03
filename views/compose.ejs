@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<link rel="stylesheet" href="/css/styles.css">
+<h1>Compose</h1>
+
+<div class="container">
+  <form id="userForm" action="/compose" method="post">
+    <label for="userInput">Title</label>
+    <input type="text" id="userInput" name="userInput" placeholder="Type something...">
+    <label for="userInput">Post</label>
+    <textarea id="userCompose" name="userCompose" placeholder="Type something..." rows="4" cols="30"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<%- include('partials/footer') %>
+
